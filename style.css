@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #999;
+}
+
+.form{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.textarea{
+    width: 49%;
+    resize: none;
+    height: 400px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.textarea:focus{
+    outline: none;
+}
